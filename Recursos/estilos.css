@@ -1,0 +1,63 @@
+body{
+    background-color: darkcyan;
+    font-family: sans-serif;
+    padding: 5em;
+
+}
+
+.fondoblanco{
+    background-color: aliceblue;
+}
+.fondoAzul{
+    background-color: deepskyblue;
+}
+.fondon{
+    background-color: black;
+}
+.texto1{
+    text-align: center;
+    font-size: 50px;
+    color: dimgrey;
+}
+.texto2{
+    font-size: 1em;
+    color: azure;
+    text-align: left;
+}
+.texto3{
+    font-size: 12x;
+    text-align: center;
+    color: azure;
+}
+.texto4{
+
+    font-size: 25px;
+    color: azure;
+    text-align: left;
+}
+.imagen{/* se puede manejar por porcentajes o pixeles, por alguna razon la imagen se torna rara en mi pc si la manejo en %
+    el % es para ocupar un % del espacio en donde esta la imagen*/
+    width: 100% ;
+    text-align: center;
+    
+}
+.bordeblanco{
+    border: 20px solid aliceblue;
+    border-radius: 15px;
+}
+.fondoimagen{
+    background-image: url(media/Rem.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    /*Aqui se pone el tamaño de la imagen*/
+    background-size: 10rem;
+    padding: 25px;
+}
+@font-face{
+    font-family: fuente1;
+    src: url(Fuente/SadwellRegular.otf);
+}
+
+li{
+    padding-left: 5px;
+}
